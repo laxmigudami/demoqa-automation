@@ -1,5 +1,3 @@
-# In root directory: demoqa_automation/.gitignore
-
 # Environment variables
 .env
 .env.local
