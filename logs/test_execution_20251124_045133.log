@@ -1,0 +1,215 @@
+2025-11-24 04:51:33 - behave.execution - INFO - Test execution started
+2025-11-24 04:51:33 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:51:33 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:51:33 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_045133.log
+2025-11-24 04:51:33 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:51:33 - config.browser_manager - INFO - Setting up chrome browser...
+2025-11-24 04:51:40 - config.browser_manager - INFO - WebDriver configured - Browser: chrome, Headless: False
+2025-11-24 04:51:40 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:51:40 - behave.execution - INFO - Scenario #1: TC010 - Verify book catalog data consistency between UI and API
+2025-11-24 04:51:40 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 04:51:40 - behave.execution - INFO - Tags: smoke, critical, api-validation, positive
+2025-11-24 04:51:44 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:51:44 - pages.homepage - INFO - Clicked on Book Store Application card
+2025-11-24 04:51:45 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 04:51:45 - pages.homepage - INFO - Book Store Application menu expanded: True
+2025-11-24 04:51:45 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 04:51:45 - pages.homepage - INFO - Navigated to: Book Store
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:46 - utils.api_client - INFO - APIClient initialized with base_url: https://demoqa.com/BookStore/v1
+2025-11-24 04:51:47 - utils.api_client - INFO - Successfully fetched 8 books
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:48 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:48 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:49 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Retrieved 8 books from page
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book image displayed for: Git Pocket Guide (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book image displayed for: Learning JavaScript Design Patterns (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book image displayed for: Designing Evolvable Web APIs with ASP.NET (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book image displayed for: Speaking JavaScript (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book image displayed for: You Don't Know JS (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book image displayed for: Programming JavaScript Applications (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book image displayed for: Eloquent JavaScript, Second Edition (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:01 - pages.bookstore_page - INFO - Book image displayed for: Understanding ECMAScript 6 (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 04:52:01 - behave.execution - INFO - Scenario passed: TC010 - Verify book catalog data consistency between UI and API (Duration: 21.17s)
+2025-11-24 04:52:01 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:52:01 - behave.execution - INFO - Scenario #2: TC011 - Verify search with non-existent book title shows no results
+2025-11-24 04:52:01 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 04:52:01 - behave.execution - INFO - Tags: smoke, critical, api-validation, negative
+2025-11-24 04:52:03 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:52:03 - pages.homepage - INFO - Clicked on Book Store Application card
+2025-11-24 04:52:03 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 04:52:03 - pages.homepage - INFO - Book Store Application menu expanded: True
+2025-11-24 04:52:03 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 04:52:04 - pages.homepage - INFO - Navigated to: Book Store
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Searched for book: NonExistentBookTitle12345XYZ
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:23 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:38 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:54 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:54 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 04:52:54 - behave.execution - INFO - Scenario passed: TC011 - Verify search with non-existent book title shows no results (Duration: 52.62s)
+2025-11-24 04:52:54 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:52:54 - behave.execution - INFO - Scenario #3: TC001 - Dynamically expand the tree at all levels
+2025-11-24 04:52:54 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:52:54 - behave.execution - INFO - Tags: smoke, functional, tree-expansion
+2025-11-24 04:52:55 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:52:55 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 04:52:56 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 04:52:56 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 04:52:57 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:52:57 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:53:07 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:07 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:53:17 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:17 - pages.checkbox_page - INFO - Found 17 visible nodes
+2025-11-24 04:53:17 - behave.execution - INFO - Scenario passed: TC001 - Dynamically expand the tree at all levels (Duration: 23.78s)
+2025-11-24 04:53:17 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:53:17 - behave.execution - INFO - Scenario #4: TC002 - Validate cascading checkbox selection for parent node with child hierarchy
+2025-11-24 04:53:17 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:53:17 - behave.execution - INFO - Tags: smoke, functional, ui-validation, checkbox-behavior, cascading-selection
+2025-11-24 04:53:19 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:53:19 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 04:53:19 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 04:53:20 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 04:53:21 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:53:21 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:53:31 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:31 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:53:53 - builtins - WARNING - No descendants found under 'WorkSpace'
+2025-11-24 04:54:14 - behave.execution - INFO - Scenario passed: TC002 - Validate cascading checkbox selection for parent node with child hierarchy (Duration: 57.02s)
+2025-11-24 04:54:14 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:54:15 - behave.execution - INFO - Scenario #5: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes
+2025-11-24 04:54:15 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:54:15 - behave.execution - INFO - Tags: smoke, functional, checkbox-interaction, multiple-parent-selection
+2025-11-24 04:54:16 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:54:16 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 04:54:16 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 04:54:17 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 04:54:18 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:54:18 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:54:28 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:28 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:54:39 - pages.checkbox_page - INFO - Clicked checkbox for node 'Office'
+2025-11-24 04:54:39 - pages.checkbox_page - INFO - Successfully checked node: Office
+2025-11-24 04:54:42 - behave.execution - INFO - Scenario passed: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes (Duration: 27.87s)
+2025-11-24 04:54:42 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:54:42 - behave.execution - INFO - Scenario #6: TC004 - Validate checkbox deselection and state rollback behavior
+2025-11-24 04:54:42 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:54:42 - behave.execution - INFO - Tags: regression, edge-case, checkbox-deselection
+2025-11-24 04:54:44 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:54:44 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 04:54:44 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 04:54:44 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 04:54:46 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:54:46 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:54:56 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:56 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:55:18 - pages.checkbox_page - INFO - Clicked checkbox to uncheck node 'WorkSpace'
+2025-11-24 04:55:18 - pages.checkbox_page - INFO - Successfully unchecked node: WorkSpace
+2025-11-24 04:55:51 - pages.base_page - ERROR - Get text failed ('id', 'result'): Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x924103
+	0x924144
+	0x72e71d
+	0x77a03d
+	0x77a41b
+	0x7c17f2
+	0x79c954
+	0x7bee17
+	0x79c706
+	0x76da30
+	0x76ed54
+	0xb957b4
+	0xb9098a
+	0x94c392
+	0x93c4c8
+	0x94324d
+	0x92c478
+	0x92c63c
+	0x9167ca
+	0x75067ba9
+	0x76ebc3ab
+	0x76ebc32f
+
+2025-11-24 04:55:51 - behave.execution - INFO - Scenario passed: TC004 - Validate checkbox deselection and state rollback behavior (Duration: 68.89s)
+2025-11-24 04:55:51 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:55:51 - behave.execution - INFO - Scenario #7: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed
+2025-11-24 04:55:51 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 04:55:51 - behave.execution - INFO - Tags: smoke, functional, visibility-check
+2025-11-24 04:55:53 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:55:53 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 04:55:54 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 04:55:54 - pages.homepage - INFO - Navigated to: Dynamic Properties
+2025-11-24 05:00:22 - behave.execution - ERROR - Scenario error: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (Duration: 271.01s)
+2025-11-24 05:00:22 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - Total scenarios: 7
+2025-11-24 05:00:22 - behave.execution - INFO - Passed: 6 (85.7%)
+2025-11-24 05:00:22 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 05:00:22 - behave.execution - INFO - Errors: 1 (14.3%)
+2025-11-24 05:00:22 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 05:00:22 - behave.execution - INFO - Pass rate: 85.71%
+2025-11-24 05:00:22 - behave.execution - INFO - Total duration: 529.33s (8.82 min)
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - Scenarios with errors:
+2025-11-24 05:00:22 - behave.execution - INFO -   1. TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (271.01s)

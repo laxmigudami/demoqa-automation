@@ -1,0 +1,134 @@
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:45 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:47 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:48 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:48 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:49 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Retrieved 8 books from page
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:51 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book image displayed for: Git Pocket Guide (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:52 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book image displayed for: Learning JavaScript Design Patterns (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:53 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book image displayed for: Designing Evolvable Web APIs with ASP.NET (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:54 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book image displayed for: Speaking JavaScript (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:56 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book image displayed for: You Don't Know JS (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:57 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book image displayed for: Programming JavaScript Applications (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:51:58 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book image displayed for: Eloquent JavaScript, Second Edition (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:00 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:01 - pages.bookstore_page - INFO - Book image displayed for: Understanding ECMAScript 6 (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:04 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:05 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Searched for book: NonExistentBookTitle12345XYZ
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:07 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:23 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:23 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:38 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 04:52:38 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 04:52:54 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 04:52:54 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 05:03:39 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:39 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:39 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:41 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:41 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:41 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:42 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:42 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:42 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:43 - pages.bookstore_page - INFO - Retrieved 8 books from page
+2025-11-24 05:03:43 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:43 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:43 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:44 - pages.bookstore_page - INFO - Book image displayed for: Git Pocket Guide (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 05:03:44 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:44 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:44 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:45 - pages.bookstore_page - INFO - Book image displayed for: Learning JavaScript Design Patterns (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 05:03:45 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:45 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:45 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:46 - pages.bookstore_page - INFO - Book image displayed for: Designing Evolvable Web APIs with ASP.NET (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 05:03:46 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:47 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:47 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:48 - pages.bookstore_page - INFO - Book image displayed for: Speaking JavaScript (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 05:03:48 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:48 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:48 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:49 - pages.bookstore_page - INFO - Book image displayed for: You Don't Know JS (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 05:03:49 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:49 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:49 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:50 - pages.bookstore_page - INFO - Book image displayed for: Programming JavaScript Applications (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 05:03:50 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:50 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:50 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:51 - pages.bookstore_page - INFO - Book image displayed for: Eloquent JavaScript, Second Edition (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 05:03:51 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:51 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:51 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:52 - pages.bookstore_page - INFO - Book image displayed for: Understanding ECMAScript 6 (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 05:03:54 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:54 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:54 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:55 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:55 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:03:55 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 05:03:57 - pages.bookstore_page - INFO - Searched for book: NonExistentBookTitle12345XYZ
+2025-11-24 05:03:57 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:03:57 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:04:12 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 05:04:12 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 05:04:12 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:04:12 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:04:27 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 05:04:27 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 05:04:27 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 05:04:27 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 05:04:42 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 05:04:42 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+

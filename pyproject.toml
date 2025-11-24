@@ -1,0 +1,54 @@
+# Black - Code Formatter
+[tool.black]
+line-length = 120
+target-version = ['py311', 'py312']
+extend-exclude = '''
+/(
+  \.venv
+  | venv
+  | reports
+  | logs
+  | allure_reports
+)/
+'''
+
+# isort - Import Sorter
+[tool.isort]
+profile = "black"
+line_length = 120
+skip_glob = [".venv/*", "venv/*", "reports/*", "logs/*"]
+
+# Pytest - Test Configuration
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
+markers = [
+    "smoke: Smoke tests",
+    "regression: Regression tests",
+    "critical: Critical path tests",
+]
+
+# Flake8 - Python Linter
+[tool.flake8]
+max-line-length = 120
+max-complexity = 18
+exclude = [".venv", "venv", "reports", "logs", "allure_reports"]
+ignore = ["E203", "W503"]
+per-file-ignores = ["__init__.py:F401", "utils/screenshot_handler.py:F401"]
+
+# Pylint - Code Analysis
+[tool.pylint.main]
+ignore = [".venv", "venv", "reports", "logs", "allure_reports"]
+
+[tool.pylint.messages_control]
+disable = [
+    "C0111",  # missing-docstring
+    "C0103",  # invalid-name
+    "R0913",  # too-many-arguments
+    "W0703",  # broad-except
+    "R0903",  # too-few-public-methods
+]
+
+[tool.pylint.format]
+max-line-length = 120

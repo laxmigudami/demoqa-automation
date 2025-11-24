@@ -1,0 +1,211 @@
+2025-11-24 04:10:26 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:10:36 - pages.practice_forms_page - INFO - Field 'First Name' error status: True
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Field 'Last Name' error status: True
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Gender field error status: False
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Retrieved field value: 
+2025-11-24 04:10:57 - pages.practice_forms_page - INFO - Field 'Mobile Number' error status: True
+2025-11-24 04:11:21 - pages.practice_forms_page - INFO - Entered first name: Priyanka
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered last name: Chopra
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered mobile: 9123456789
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered email: priyanka.chopra@bollywood.com
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Entered date of birth: 15 Jul 1982 (formatted as 07/15/1982)
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Retrieved submitted data: {'Student Name': 'Priyanka Chopra', 'Student Email': 'priyanka.chopra@bollywood.com', 'Gender': 'Female', 'Mobile': '9123456789', 'Date of Birth': '15 July,1982', 'Subjects': '', 'Hobbies': '', 'Picture': '', 'Address': '', 'State and City': ''}
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Success modal closed
+2025-11-24 04:11:25 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 04:11:36 - pages.practice_forms_page - INFO - Field 'Mobile Number' error status: False
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered mobile: hello world
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Retrieved field value: hello worl
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: hello worl
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered mobile: 98@#$67890
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:12:25 - pages.practice_forms_page - INFO - Retrieved field value: 98@#$67890
+2025-11-24 04:12:25 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: 98@#$67890
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered mobile: 987654321098765
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Retrieved field value: 9876543210
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 04:13:14 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:13:14 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 04:13:24 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: True
+2025-11-24 04:13:47 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 04:13:59 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 04:14:34 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:16:07 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 04:16:18 - pages.practice_forms_page - INFO - Field 'Mobile Number' error status: False
+2025-11-24 04:16:44 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Entered mobile: hello world
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Retrieved field value: hello worl
+2025-11-24 04:16:45 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: hello worl
+2025-11-24 04:17:10 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:17:10 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:17:11 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:17:11 - pages.practice_forms_page - INFO - Entered mobile: 98@#$67890
+2025-11-24 04:17:11 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:17:11 - pages.practice_forms_page - INFO - Retrieved field value: 98@#$67890
+2025-11-24 04:17:11 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: 98@#$67890
+2025-11-24 04:17:36 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:17:36 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:17:36 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:17:37 - pages.practice_forms_page - INFO - Entered mobile: 987654321098765
+2025-11-24 04:17:37 - pages.practice_forms_page - INFO - Retrieved field value: 9876543210
+2025-11-24 04:18:01 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:18:01 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:18:01 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:18:01 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:18:02 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 04:18:02 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:18:02 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 04:18:12 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:18:36 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:18:36 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:18:36 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:18:36 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:18:36 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 04:18:37 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:18:37 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 04:18:47 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:19:13 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:19:13 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:19:13 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:19:13 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:19:14 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 04:19:14 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:19:14 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 04:19:24 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 04:26:19 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:26:19 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Field 'First Name' has HTML5 :invalid state
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Field 'Last Name' has HTML5 :invalid state
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Gender field error status: False
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Retrieved field value: 
+2025-11-24 05:08:00 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Entered first name: Priyanka
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Entered last name: Chopra
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Entered mobile: 9123456789
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Entered email: priyanka.chopra@bollywood.com
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Entered date of birth: 15 Jul 1982 (formatted as 07/15/1982)
+2025-11-24 05:08:23 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:08:24 - pages.practice_forms_page - INFO - Retrieved submitted data: {'Student Name': 'Priyanka Chopra', 'Student Email': 'priyanka.chopra@bollywood.com', 'Gender': 'Female', 'Mobile': '9123456789', 'Date of Birth': '15 July,1982', 'Subjects': '', 'Hobbies': '', 'Picture': '', 'Address': '', 'State and City': ''}
+2025-11-24 05:08:24 - pages.practice_forms_page - INFO - Success modal closed
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 05:08:25 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Entered mobile: hello world
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Retrieved field value: hello worl
+2025-11-24 05:08:48 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Entered mobile: 98@#$67890
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Retrieved field value: 98@#$67890
+2025-11-24 05:09:11 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 05:09:33 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 05:09:34 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 05:09:34 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 05:09:34 - pages.practice_forms_page - INFO - Entered mobile: 987654321098765
+2025-11-24 05:09:34 - pages.practice_forms_page - INFO - Retrieved field value: 9876543210
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 05:09:56 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:09:57 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 05:09:57 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 05:10:19 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 05:10:42 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state

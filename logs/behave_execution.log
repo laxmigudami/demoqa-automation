@@ -1,0 +1,319 @@
+2025-11-24 04:10:15 - behave.execution - INFO - Test execution started
+2025-11-24 04:10:15 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:10:15 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:10:15 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_041015.log
+2025-11-24 04:10:15 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:10:22 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:10:22 - behave.execution - INFO - Scenario #1: TC007 - Verify user not able to submit the form with empty fields
+2025-11-24 04:10:22 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:10:22 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 04:10:57 - behave.execution - INFO - Scenario passed: TC007 - Verify user not able to submit the form with empty fields (Duration: 35.43s)
+2025-11-24 04:10:57 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:18 - behave.execution - INFO - Scenario #2: TC008 - Verify form submission with valid required fields only
+2025-11-24 04:11:18 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:18 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 04:11:23 - behave.execution - INFO - Scenario passed: TC008 - Verify form submission with valid required fields only (Duration: 4.73s)
+2025-11-24 04:11:23 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:23 - behave.execution - INFO - Scenario #3: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:11:23 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:23 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:11:36 - behave.execution - ERROR - Scenario failed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 12.86s)
+2025-11-24 04:11:36 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:36 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC009_FAILED_20251124_041136_598.png
+2025-11-24 04:11:57 - behave.execution - INFO - Scenario #4: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2 
+2025-11-24 04:11:57 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:57 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:12:00 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2  (Duration: 2.83s)
+2025-11-24 04:12:00 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:12:21 - behave.execution - INFO - Scenario #5: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3 
+2025-11-24 04:12:21 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:12:21 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:12:25 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3  (Duration: 3.28s)
+2025-11-24 04:12:25 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:12:46 - behave.execution - INFO - Scenario #6: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum
+2025-11-24 04:12:46 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:12:46 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:12:49 - behave.execution - INFO - Scenario passed: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum (Duration: 3.36s)
+2025-11-24 04:12:49 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:10 - behave.execution - INFO - Scenario #7: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:13:10 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:13:10 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:13:24 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 13.66s)
+2025-11-24 04:13:24 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:45 - behave.execution - INFO - Scenario #8: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:13:45 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:13:45 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:13:59 - behave.execution - ERROR - Scenario failed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 13.99s)
+2025-11-24 04:13:59 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:59 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC011_FAILED_20251124_041359_468.png
+2025-11-24 04:14:20 - behave.execution - INFO - Scenario #9: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:14:20 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:14:20 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:14:34 - behave.execution - ERROR - Scenario failed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 13.23s)
+2025-11-24 04:14:34 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:14:34 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC011_FAILED_20251124_041434_042.png
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - Total scenarios: 9
+2025-11-24 04:14:55 - behave.execution - INFO - Passed: 6 (66.7%)
+2025-11-24 04:14:55 - behave.execution - INFO - Failed: 3 (33.3%)
+2025-11-24 04:14:55 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 04:14:55 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 04:14:55 - behave.execution - INFO - Pass rate: 66.67%
+2025-11-24 04:14:55 - behave.execution - INFO - Total duration: 279.86s (4.66 min)
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - Failed scenarios:
+2025-11-24 04:14:55 - behave.execution - INFO -   1. TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (12.86s)
+2025-11-24 04:14:55 - behave.execution - INFO -   2. TC011 - Validate Email field rejects invalid formats -- @1.2  (13.99s)
+2025-11-24 04:14:55 - behave.execution - INFO -   3. TC011 - Validate Email field rejects invalid formats -- @1.3  (13.23s)
+2025-11-24 04:15:56 - behave.execution - INFO - Test execution started
+2025-11-24 04:15:56 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:15:56 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:15:56 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_041555.log
+2025-11-24 04:15:56 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:16:02 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:16:02 - behave.execution - INFO - Scenario #1: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:16:02 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:16:02 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:16:18 - behave.execution - WARNING - Scenario skipped: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:16:18 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:16:39 - behave.execution - INFO - Scenario #2: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2 
+2025-11-24 04:16:39 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:16:39 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:16:45 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2  (Duration: 6.64s)
+2025-11-24 04:16:45 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:17:06 - behave.execution - INFO - Scenario #3: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3 
+2025-11-24 04:17:06 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:17:06 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:17:11 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3  (Duration: 5.01s)
+2025-11-24 04:17:11 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:17:33 - behave.execution - INFO - Scenario #4: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum
+2025-11-24 04:17:33 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:17:33 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:17:37 - behave.execution - INFO - Scenario passed: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum (Duration: 4.10s)
+2025-11-24 04:17:37 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:17:58 - behave.execution - INFO - Scenario #5: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:17:58 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:17:58 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:18:12 - behave.execution - WARNING - Scenario skipped: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:18:12 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:18:33 - behave.execution - INFO - Scenario #6: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:18:33 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:18:33 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:18:47 - behave.execution - WARNING - Scenario skipped: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:18:47 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:19:08 - behave.execution - INFO - Scenario #7: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:19:08 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:19:08 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:19:24 - behave.execution - WARNING - Scenario skipped: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:19:24 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:19:45 - behave.execution - INFO - ================================================================================
+2025-11-24 04:19:45 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 04:19:45 - behave.execution - INFO - ================================================================================
+2025-11-24 04:19:45 - behave.execution - INFO - Total scenarios: 7
+2025-11-24 04:19:45 - behave.execution - INFO - Passed: 3 (42.9%)
+2025-11-24 04:19:45 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 04:19:45 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 04:19:45 - behave.execution - INFO - Skipped: 4 (57.1%)
+2025-11-24 04:19:45 - behave.execution - INFO - Pass rate: 42.86%
+2025-11-24 04:19:45 - behave.execution - INFO - Total duration: 229.58s (3.83 min)
+2025-11-24 04:19:45 - behave.execution - INFO - ================================================================================
+2025-11-24 04:24:53 - behave.execution - INFO - Test execution started
+2025-11-24 04:24:53 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:24:53 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:24:53 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_042452.log
+2025-11-24 04:24:53 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:24:59 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:24:59 - behave.execution - INFO - Scenario #1: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:24:59 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:24:59 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:05 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 5.92s)
+2025-11-24 04:25:05 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:25:26 - behave.execution - INFO - Scenario #2: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:25:26 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:25:26 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:31 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 4.27s)
+2025-11-24 04:25:31 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:25:52 - behave.execution - INFO - Scenario #3: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:25:52 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:25:52 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:56 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 4.08s)
+2025-11-24 04:25:56 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:26:17 - behave.execution - INFO - Scenario #4: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:26:17 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:26:17 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:26:21 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 3.79s)
+2025-11-24 04:26:21 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:26:42 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:26:42 - behave.execution - INFO - Total scenarios: 4
+2025-11-24 04:26:42 - behave.execution - INFO - Passed: 4 (100.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Pass rate: 100.00%
+2025-11-24 04:26:42 - behave.execution - INFO - Total duration: 109.03s (1.82 min)
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:51:33 - behave.execution - INFO - Test execution started
+2025-11-24 04:51:33 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:51:33 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:51:33 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_045133.log
+2025-11-24 04:51:33 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:51:40 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:51:40 - behave.execution - INFO - Scenario #1: TC010 - Verify book catalog data consistency between UI and API
+2025-11-24 04:51:40 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 04:51:40 - behave.execution - INFO - Tags: smoke, critical, api-validation, positive
+2025-11-24 04:52:01 - behave.execution - INFO - Scenario passed: TC010 - Verify book catalog data consistency between UI and API (Duration: 21.17s)
+2025-11-24 04:52:01 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:52:01 - behave.execution - INFO - Scenario #2: TC011 - Verify search with non-existent book title shows no results
+2025-11-24 04:52:01 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 04:52:01 - behave.execution - INFO - Tags: smoke, critical, api-validation, negative
+2025-11-24 04:52:54 - behave.execution - INFO - Scenario passed: TC011 - Verify search with non-existent book title shows no results (Duration: 52.62s)
+2025-11-24 04:52:54 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:52:54 - behave.execution - INFO - Scenario #3: TC001 - Dynamically expand the tree at all levels
+2025-11-24 04:52:54 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:52:54 - behave.execution - INFO - Tags: smoke, functional, tree-expansion
+2025-11-24 04:53:17 - behave.execution - INFO - Scenario passed: TC001 - Dynamically expand the tree at all levels (Duration: 23.78s)
+2025-11-24 04:53:17 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:53:17 - behave.execution - INFO - Scenario #4: TC002 - Validate cascading checkbox selection for parent node with child hierarchy
+2025-11-24 04:53:17 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:53:17 - behave.execution - INFO - Tags: smoke, functional, ui-validation, checkbox-behavior, cascading-selection
+2025-11-24 04:54:14 - behave.execution - INFO - Scenario passed: TC002 - Validate cascading checkbox selection for parent node with child hierarchy (Duration: 57.02s)
+2025-11-24 04:54:14 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:54:15 - behave.execution - INFO - Scenario #5: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes
+2025-11-24 04:54:15 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:54:15 - behave.execution - INFO - Tags: smoke, functional, checkbox-interaction, multiple-parent-selection
+2025-11-24 04:54:42 - behave.execution - INFO - Scenario passed: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes (Duration: 27.87s)
+2025-11-24 04:54:42 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:54:42 - behave.execution - INFO - Scenario #6: TC004 - Validate checkbox deselection and state rollback behavior
+2025-11-24 04:54:42 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 04:54:42 - behave.execution - INFO - Tags: regression, edge-case, checkbox-deselection
+2025-11-24 04:55:51 - behave.execution - INFO - Scenario passed: TC004 - Validate checkbox deselection and state rollback behavior (Duration: 68.89s)
+2025-11-24 04:55:51 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:55:51 - behave.execution - INFO - Scenario #7: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed
+2025-11-24 04:55:51 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 04:55:51 - behave.execution - INFO - Tags: smoke, functional, visibility-check
+2025-11-24 05:00:22 - behave.execution - ERROR - Scenario error: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (Duration: 271.01s)
+2025-11-24 05:00:22 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - Total scenarios: 7
+2025-11-24 05:00:22 - behave.execution - INFO - Passed: 6 (85.7%)
+2025-11-24 05:00:22 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 05:00:22 - behave.execution - INFO - Errors: 1 (14.3%)
+2025-11-24 05:00:22 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 05:00:22 - behave.execution - INFO - Pass rate: 85.71%
+2025-11-24 05:00:22 - behave.execution - INFO - Total duration: 529.33s (8.82 min)
+2025-11-24 05:00:22 - behave.execution - INFO - ================================================================================
+2025-11-24 05:00:22 - behave.execution - INFO - Scenarios with errors:
+2025-11-24 05:00:22 - behave.execution - INFO -   1. TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (271.01s)
+2025-11-24 05:01:19 - behave.execution - INFO - Test execution started
+2025-11-24 05:01:19 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 05:01:19 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 05:01:19 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_050119.log
+2025-11-24 05:01:19 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:03:29 - behave.execution - INFO - Test execution started
+2025-11-24 05:03:29 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 05:03:29 - behave.execution - INFO - Browser: chrome (Headless: True)
+2025-11-24 05:03:29 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_050329.log
+2025-11-24 05:03:29 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:03:34 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 05:03:34 - behave.execution - INFO - Scenario #1: TC010 - Verify book catalog data consistency between UI and API
+2025-11-24 05:03:34 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 05:03:34 - behave.execution - INFO - Tags: smoke, critical, api-validation, positive
+2025-11-24 05:03:52 - behave.execution - INFO - Scenario passed: TC010 - Verify book catalog data consistency between UI and API (Duration: 18.26s)
+2025-11-24 05:03:52 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:03:52 - behave.execution - INFO - Scenario #2: TC011 - Verify search with non-existent book title shows no results
+2025-11-24 05:03:52 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 05:03:52 - behave.execution - INFO - Tags: smoke, critical, api-validation, negative
+2025-11-24 05:04:42 - behave.execution - INFO - Scenario passed: TC011 - Verify search with non-existent book title shows no results (Duration: 50.40s)
+2025-11-24 05:04:42 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:04:42 - behave.execution - INFO - Scenario #3: TC001 - Dynamically expand the tree at all levels
+2025-11-24 05:04:42 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 05:04:42 - behave.execution - INFO - Tags: smoke, functional, tree-expansion
+2025-11-24 05:05:06 - behave.execution - INFO - Scenario passed: TC001 - Dynamically expand the tree at all levels (Duration: 23.41s)
+2025-11-24 05:05:06 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:05:06 - behave.execution - INFO - Scenario #4: TC002 - Validate cascading checkbox selection for parent node with child hierarchy
+2025-11-24 05:05:06 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 05:05:06 - behave.execution - INFO - Tags: smoke, functional, ui-validation, checkbox-behavior, cascading-selection
+2025-11-24 05:06:02 - behave.execution - INFO - Scenario passed: TC002 - Validate cascading checkbox selection for parent node with child hierarchy (Duration: 56.23s)
+2025-11-24 05:06:02 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:06:02 - behave.execution - INFO - Scenario #5: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes
+2025-11-24 05:06:02 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 05:06:02 - behave.execution - INFO - Tags: smoke, functional, checkbox-interaction, multiple-parent-selection
+2025-11-24 05:06:30 - behave.execution - INFO - Scenario passed: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes (Duration: 27.73s)
+2025-11-24 05:06:30 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:06:30 - behave.execution - INFO - Scenario #6: TC004 - Validate checkbox deselection and state rollback behavior
+2025-11-24 05:06:30 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 05:06:30 - behave.execution - INFO - Tags: regression, edge-case, checkbox-deselection
+2025-11-24 05:07:40 - behave.execution - INFO - Scenario passed: TC004 - Validate checkbox deselection and state rollback behavior (Duration: 69.79s)
+2025-11-24 05:07:40 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:07:40 - behave.execution - INFO - Scenario #7: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed
+2025-11-24 05:07:40 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 05:07:40 - behave.execution - INFO - Tags: smoke, functional, visibility-check
+2025-11-24 05:07:48 - behave.execution - INFO - Scenario passed: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (Duration: 8.58s)
+2025-11-24 05:07:48 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:07:48 - behave.execution - INFO - Scenario #8: TC006 - Verify that the Color Change button changes color after some time
+2025-11-24 05:07:48 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 05:07:48 - behave.execution - INFO - Tags: smoke, functional, color-validation
+2025-11-24 05:07:57 - behave.execution - INFO - Scenario passed: TC006 - Verify that the Color Change button changes color after some time (Duration: 8.86s)
+2025-11-24 05:07:57 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:07:57 - behave.execution - INFO - Scenario #9: TC007 - Verify user not able to submit the form with empty fields
+2025-11-24 05:07:57 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:07:57 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 05:08:00 - behave.execution - INFO - Scenario passed: TC007 - Verify user not able to submit the form with empty fields (Duration: 2.78s)
+2025-11-24 05:08:00 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:08:21 - behave.execution - INFO - Scenario #10: TC008 - Verify form submission with valid required fields only
+2025-11-24 05:08:21 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:08:21 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 05:08:24 - behave.execution - INFO - Scenario passed: TC008 - Verify form submission with valid required fields only (Duration: 2.81s)
+2025-11-24 05:08:24 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:08:24 - behave.execution - INFO - Scenario #11: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 05:08:24 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:08:24 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:08:25 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 1.18s)
+2025-11-24 05:08:25 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:08:46 - behave.execution - INFO - Scenario #12: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2 
+2025-11-24 05:08:46 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:08:46 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:08:48 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2  (Duration: 1.88s)
+2025-11-24 05:08:48 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:09:09 - behave.execution - INFO - Scenario #13: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3 
+2025-11-24 05:09:09 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:09:09 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:09:11 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3  (Duration: 1.94s)
+2025-11-24 05:09:11 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:09:32 - behave.execution - INFO - Scenario #14: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum
+2025-11-24 05:09:32 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:09:32 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:09:34 - behave.execution - INFO - Scenario passed: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum (Duration: 1.57s)
+2025-11-24 05:09:34 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:09:55 - behave.execution - INFO - Scenario #15: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 05:09:55 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:09:55 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:09:57 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 1.79s)
+2025-11-24 05:09:57 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:10:18 - behave.execution - INFO - Scenario #16: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 05:10:18 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:10:18 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:10:19 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 1.63s)
+2025-11-24 05:10:19 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:10:40 - behave.execution - INFO - Scenario #17: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 05:10:40 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 05:10:40 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 05:10:42 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 1.60s)
+2025-11-24 05:10:42 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:11:03 - behave.execution - INFO - ================================================================================
+2025-11-24 05:11:03 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 05:11:03 - behave.execution - INFO - ================================================================================
+2025-11-24 05:11:03 - behave.execution - INFO - Total scenarios: 17
+2025-11-24 05:11:03 - behave.execution - INFO - Passed: 17 (100.0%)
+2025-11-24 05:11:03 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 05:11:03 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 05:11:03 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 05:11:03 - behave.execution - INFO - Pass rate: 100.00%
+2025-11-24 05:11:03 - behave.execution - INFO - Total duration: 454.31s (7.57 min)
+2025-11-24 05:11:03 - behave.execution - INFO - ================================================================================

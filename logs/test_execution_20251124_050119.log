@@ -1,0 +1,6 @@
+2025-11-24 05:01:19 - behave.execution - INFO - Test execution started
+2025-11-24 05:01:19 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 05:01:19 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 05:01:19 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_050119.log
+2025-11-24 05:01:19 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 05:01:19 - config.browser_manager - INFO - Setting up chrome browser...

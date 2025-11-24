@@ -1,0 +1,83 @@
+2025-11-24 04:24:53 - behave.execution - INFO - Test execution started
+2025-11-24 04:24:53 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:24:53 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:24:53 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_042452.log
+2025-11-24 04:24:53 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:24:53 - config.browser_manager - INFO - Setting up chrome browser...
+2025-11-24 04:24:59 - config.browser_manager - INFO - WebDriver configured - Browser: chrome, Headless: False
+2025-11-24 04:24:59 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:24:59 - behave.execution - INFO - Scenario #1: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:24:59 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:24:59 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:04 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:25:04 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:25:04 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 04:25:05 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 04:25:05 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 5.92s)
+2025-11-24 04:25:05 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:25:26 - behave.execution - INFO - Scenario #2: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:25:26 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:25:26 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:28 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:25:28 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:25:29 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:25:30 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 04:25:31 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 04:25:31 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 4.27s)
+2025-11-24 04:25:31 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:25:52 - behave.execution - INFO - Scenario #3: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:25:52 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:25:52 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:25:54 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:25:54 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:25:54 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:25:55 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 04:25:56 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 04:25:56 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 4.08s)
+2025-11-24 04:25:56 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:26:17 - behave.execution - INFO - Scenario #4: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:26:17 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:26:17 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:26:18 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:26:19 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:26:19 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:26:19 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:26:19 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:26:20 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 04:26:21 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 04:26:21 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 3.79s)
+2025-11-24 04:26:21 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:26:42 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:26:42 - behave.execution - INFO - Total scenarios: 4
+2025-11-24 04:26:42 - behave.execution - INFO - Passed: 4 (100.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 04:26:42 - behave.execution - INFO - Pass rate: 100.00%
+2025-11-24 04:26:42 - behave.execution - INFO - Total duration: 109.03s (1.82 min)
+2025-11-24 04:26:42 - behave.execution - INFO - ================================================================================
+2025-11-24 04:26:45 - config.browser_manager - INFO - WebDriver closed

@@ -1,0 +1,6 @@
+2025-11-24 04:16:18 - builtins - WARNING - KNOWN BUG: DEMOQA doesn't show error for mobile number with < 10 digits: '98'
+2025-11-24 04:18:12 - builtins - WARNING - KNOWN BUG: DEMOQA doesn't show error for invalid email format: 'plaintext'
+2025-11-24 04:18:47 - builtins - WARNING - KNOWN BUG: DEMOQA doesn't show error for invalid email format: 'user@'
+2025-11-24 04:19:24 - builtins - WARNING - KNOWN BUG: DEMOQA doesn't show error for invalid email format: 'user@domain'
+2025-11-24 04:53:53 - builtins - WARNING - No descendants found under 'WorkSpace'
+2025-11-24 05:05:40 - builtins - WARNING - No descendants found under 'WorkSpace'

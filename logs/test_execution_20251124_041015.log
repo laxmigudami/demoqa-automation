@@ -1,0 +1,167 @@
+2025-11-24 04:10:15 - behave.execution - INFO - Test execution started
+2025-11-24 04:10:15 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 04:10:15 - behave.execution - INFO - Browser: chrome (Headless: False)
+2025-11-24 04:10:15 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_041015.log
+2025-11-24 04:10:15 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:10:15 - config.browser_manager - INFO - Setting up chrome browser...
+2025-11-24 04:10:22 - config.browser_manager - INFO - WebDriver configured - Browser: chrome, Headless: False
+2025-11-24 04:10:22 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 04:10:22 - behave.execution - INFO - Scenario #1: TC007 - Verify user not able to submit the form with empty fields
+2025-11-24 04:10:22 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:10:22 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 04:10:26 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:10:26 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:10:26 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:10:26 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:10:36 - pages.practice_forms_page - INFO - Field 'First Name' error status: True
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Field 'Last Name' error status: True
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Gender field error status: False
+2025-11-24 04:10:47 - pages.practice_forms_page - INFO - Retrieved field value: 
+2025-11-24 04:10:57 - pages.practice_forms_page - INFO - Field 'Mobile Number' error status: True
+2025-11-24 04:10:57 - behave.execution - INFO - Scenario passed: TC007 - Verify user not able to submit the form with empty fields (Duration: 35.43s)
+2025-11-24 04:10:57 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:18 - behave.execution - INFO - Scenario #2: TC008 - Verify form submission with valid required fields only
+2025-11-24 04:11:18 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:18 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 04:11:20 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:11:21 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:11:21 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:11:21 - pages.practice_forms_page - INFO - Entered first name: Priyanka
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered last name: Chopra
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered mobile: 9123456789
+2025-11-24 04:11:22 - pages.practice_forms_page - INFO - Entered email: priyanka.chopra@bollywood.com
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Entered date of birth: 15 Jul 1982 (formatted as 07/15/1982)
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Retrieved submitted data: {'Student Name': 'Priyanka Chopra', 'Student Email': 'priyanka.chopra@bollywood.com', 'Gender': 'Female', 'Mobile': '9123456789', 'Date of Birth': '15 July,1982', 'Subjects': '', 'Hobbies': '', 'Picture': '', 'Address': '', 'State and City': ''}
+2025-11-24 04:11:23 - behave.execution - INFO - Scenario passed: TC008 - Verify form submission with valid required fields only (Duration: 4.73s)
+2025-11-24 04:11:23 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:23 - pages.practice_forms_page - INFO - Success modal closed
+2025-11-24 04:11:23 - behave.execution - INFO - Scenario #3: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 04:11:23 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:23 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:11:24 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:11:25 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:11:25 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:11:25 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:11:26 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 04:11:36 - pages.practice_forms_page - INFO - Field 'Mobile Number' error status: False
+2025-11-24 04:11:36 - behave.execution - ERROR - Scenario failed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 12.86s)
+2025-11-24 04:11:36 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:11:36 - utils.screenshot_handler - INFO - Screenshot saved: TC009_FAILED_20251124_041136_598.png (556.8 KB)
+2025-11-24 04:11:36 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC009_FAILED_20251124_041136_598.png
+2025-11-24 04:11:57 - behave.execution - INFO - Scenario #4: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2 
+2025-11-24 04:11:57 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:11:57 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:11:59 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:11:59 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:12:00 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Entered mobile: hello world
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Retrieved field value: hello worl
+2025-11-24 04:12:00 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: hello worl
+2025-11-24 04:12:00 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2  (Duration: 2.83s)
+2025-11-24 04:12:00 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:12:21 - behave.execution - INFO - Scenario #5: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3 
+2025-11-24 04:12:21 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:12:21 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:12:23 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:12:23 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:12:24 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Entered mobile: 98@#$67890
+2025-11-24 04:12:24 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:12:25 - pages.practice_forms_page - INFO - Retrieved field value: 98@#$67890
+2025-11-24 04:12:25 - pages.practice_forms_page - INFO - Field 'Mobile Number' contains non-digit characters: 98@#$67890
+2025-11-24 04:12:25 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3  (Duration: 3.28s)
+2025-11-24 04:12:25 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:12:46 - behave.execution - INFO - Scenario #6: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum
+2025-11-24 04:12:46 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:12:46 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:12:48 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:12:48 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:12:48 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Entered mobile: 987654321098765
+2025-11-24 04:12:49 - pages.practice_forms_page - INFO - Retrieved field value: 9876543210
+2025-11-24 04:12:49 - behave.execution - INFO - Scenario passed: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum (Duration: 3.36s)
+2025-11-24 04:12:49 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:10 - behave.execution - INFO - Scenario #7: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 04:13:10 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:13:10 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:13:12 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:13:12 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:13:12 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:13:13 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 04:13:14 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:13:14 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 04:13:24 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: True
+2025-11-24 04:13:24 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 13.66s)
+2025-11-24 04:13:24 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:45 - behave.execution - INFO - Scenario #8: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 04:13:45 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:13:45 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:13:46 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:13:47 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:13:47 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:13:47 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:13:48 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:13:49 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 04:13:59 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:13:59 - behave.execution - ERROR - Scenario failed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 13.99s)
+2025-11-24 04:13:59 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:13:59 - utils.screenshot_handler - INFO - Screenshot saved: TC011_FAILED_20251124_041359_468.png (142.2 KB)
+2025-11-24 04:13:59 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC011_FAILED_20251124_041359_468.png
+2025-11-24 04:14:20 - behave.execution - INFO - Scenario #9: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 04:14:20 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 04:14:20 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 04:14:22 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 04:14:22 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 04:14:22 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 04:14:23 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 04:14:34 - pages.practice_forms_page - INFO - Field 'name@example.com' error status: False
+2025-11-24 04:14:34 - behave.execution - ERROR - Scenario failed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 13.23s)
+2025-11-24 04:14:34 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 04:14:34 - utils.screenshot_handler - INFO - Screenshot saved: TC011_FAILED_20251124_041434_042.png (266.9 KB)
+2025-11-24 04:14:34 - behave.execution - INFO - Screenshot saved: C:\Users\z00556rs\Documents\demoqa_automation\reports\screenshots\TC011_FAILED_20251124_041434_042.png
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - Total scenarios: 9
+2025-11-24 04:14:55 - behave.execution - INFO - Passed: 6 (66.7%)
+2025-11-24 04:14:55 - behave.execution - INFO - Failed: 3 (33.3%)
+2025-11-24 04:14:55 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 04:14:55 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 04:14:55 - behave.execution - INFO - Pass rate: 66.67%
+2025-11-24 04:14:55 - behave.execution - INFO - Total duration: 279.86s (4.66 min)
+2025-11-24 04:14:55 - behave.execution - INFO - ================================================================================
+2025-11-24 04:14:55 - behave.execution - INFO - Failed scenarios:
+2025-11-24 04:14:55 - behave.execution - INFO -   1. TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (12.86s)
+2025-11-24 04:14:55 - behave.execution - INFO -   2. TC011 - Validate Email field rejects invalid formats -- @1.2  (13.99s)
+2025-11-24 04:14:55 - behave.execution - INFO -   3. TC011 - Validate Email field rejects invalid formats -- @1.3  (13.23s)
+2025-11-24 04:14:59 - config.browser_manager - INFO - WebDriver closed

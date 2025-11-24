@@ -1,0 +1,62 @@
+2025-11-24 04:52:57 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:52:57 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:53:07 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:07 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:53:17 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:17 - pages.checkbox_page - INFO - Found 17 visible nodes
+2025-11-24 04:53:21 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:53:21 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:53:31 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:31 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:53:41 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:54:18 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:54:18 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:54:28 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:28 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:54:38 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:54:39 - pages.checkbox_page - INFO - Clicked checkbox for node 'Office'
+2025-11-24 04:54:39 - pages.checkbox_page - INFO - Successfully checked node: Office
+2025-11-24 04:54:46 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 04:54:46 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 04:54:56 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:54:56 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 04:55:06 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 04:55:18 - pages.checkbox_page - INFO - Clicked checkbox to uncheck node 'WorkSpace'
+2025-11-24 04:55:18 - pages.checkbox_page - INFO - Successfully unchecked node: WorkSpace
+2025-11-24 05:04:45 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 05:04:45 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 05:04:56 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:04:56 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 05:05:06 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:05:06 - pages.checkbox_page - INFO - Found 17 visible nodes
+2025-11-24 05:05:09 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 05:05:09 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 05:05:19 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:05:19 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 05:05:29 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:05:29 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 05:05:29 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 05:06:05 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 05:06:05 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 05:06:15 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:06:15 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 05:06:25 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:06:25 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 05:06:25 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 05:06:27 - pages.checkbox_page - INFO - Clicked checkbox for node 'Office'
+2025-11-24 05:06:27 - pages.checkbox_page - INFO - Successfully checked node: Office
+2025-11-24 05:06:33 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 05:06:33 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 05:06:44 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:06:44 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 05:06:54 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 05:06:54 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 05:06:54 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 05:07:06 - pages.checkbox_page - INFO - Clicked checkbox to uncheck node 'WorkSpace'
+2025-11-24 05:07:06 - pages.checkbox_page - INFO - Successfully unchecked node: WorkSpace
