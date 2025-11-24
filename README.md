@@ -1,29 +1,19 @@
-# DemoQA Test Automation Framework
-
-## Overview
+# DemoQA Test Automation Framework (Python + Selenium + Behave)
 
 This is a comprehensive test automation framework I've built for web application testing, leveraging BDD principles to bridge the gap between technical and non-technical team members. The framework uses Python with Selenium WebDriver and Behave to create a maintainable and scalable testing solution that grows with your project needs.
 
-## What Makes This Framework Effective
+## Key Features
 
-### Behavior-Driven Development Approach
-I've implemented BDD using Gherkin syntax, which means anyone on the team—developers, QAs, or business analysts—can read and understand what's being tested. The Behave framework handles the Python implementation, making it easy to write tests in plain English that actually mean something to stakeholders.
-
-### Page Object Model Architecture
-The framework follows POM design pattern to keep things organized. UI elements and actions are separated from test logic, which means when the UI changes (and it always does), you only need to update one place. This has saved me countless hours of maintenance work on previous projects.
-
-### Intelligent Wait Strategies
-Rather than using hard-coded sleep statements that make tests slow and unreliable, I've implemented explicit and fluent waits that intelligently wait for elements to be ready. The framework also includes retry logic for those occasional flaky elements we all know and love.
-
-### Rich Test Reporting
-Allure reports give you a clear picture of what's happening with your tests. You get interactive HTML reports with screenshots attached to failures, detailed execution logs, and trend analysis over time. This makes it much easier to communicate test results to the team and track quality metrics.
-
-### API and UI Testing Combined
-The framework isn't just for UI testing. I've integrated API validation so you can verify that what you see in the UI matches what the backend is actually returning. This catches integration issues early.
+- 🎯 **Behavior-Driven Development (BDD)** - Gherkin syntax with Behave enables stakeholders to write and understand tests in plain English
+- 🏗️ **Page Object Model (POM)** - Centralized element management with separated test logic for maintainable and scalable automation
+- ⏱️ **Smart Wait Mechanisms** - WebDriverWait with expected conditions and retry logic for robust handling of dynamic elements
+- 📊 **Comprehensive Reporting** - Allure integration with interactive HTML reports, screenshots on failure, and historical trend analysis
+- 🔗 **Hybrid Testing** - Combined UI and REST API validation ensuring end-to-end data consistency across application layers
+- ✨ **Code Quality Management** - Automated code formatting (Black), import sorting (isort), and linting (Flake8, Pylint) via centralized pyproject.toml configuration
 
 ---
 
-## Technology Stack
+## Tech Stack
 
 | Category | Technology | Version | Purpose |
 |----------|-----------|---------|---------|
@@ -34,22 +24,6 @@ The framework isn't just for UI testing. I've integrated API validation so you c
 | **API Testing** | Requests | 2.31.0 | HTTP library for REST API validation |
 | **WebDriver Management** | WebDriver Manager | 4.0.1 | Automatic browser driver management |
 | **Configuration** | python-dotenv | 1.0.0 | Environment-based configuration |
-
----
-
-## Framework Architecture
-
-### How I've Structured the Tests
-
-**Test Independence**: Each scenario can run independently and in any order. This is crucial for parallel execution and debugging specific failures.
-
-**Clear Structure**: All scenarios follow the Given-When-Then format, making them easy to read and understand at a glance.
-
-**Reusability**: Common steps are shared across features, so you write them once and use them everywhere.
-
-**Organized Code**: Test logic, page objects, and utilities are clearly separated. Locators are centralized in one place, and configuration is externalized so you can easily change environments.
-
-**Built for Reliability**: The framework uses explicit waits instead of sleep statements, includes retry logic for handling transient failures, and validates browser sessions to recover from unexpected issues.
 
 ---
 
@@ -94,18 +68,27 @@ demoqa_automation/
 
 ---
 
-## Test Coverage
+## Requirements Traceability Matrix
 
-I've maintained full traceability between requirements and test cases to ensure nothing falls through the cracks:
+This matrix maps each requirement to its corresponding test case implementation, demonstrating comprehensive test coverage across all acceptance criteria.
 
-| Requirement | What We're Testing | Test Cases | Status |
-|-------------|-------------------|------------|---------|
-| Checkbox Tree - Dynamic Expansion | Tree expansion, cascading selection, state management | TC001-TC004 | Automated |
-| Dynamic Properties - Visibility & State | Delayed element appearance, dynamic color changes | TC005-TC006 | Automated |
-| Practice Forms - Field Validation | Mandatory fields, input validation, format checking | TC007-TC011 | Automated |
-| Book Store - API Integration | UI-API data consistency, search functionality | TC012-TC013 | Automated |
+| Requirement ID | Description | Test Case ID | 🟢 Additional detailing covered in test cases |
+|---------------|-------------|--------------|----------------------------------------------|
+| **1.a** | Navigate to Elements > Checkbox. Dynamically expand the tree at all levels. | TC001 | ✅ **Background**: Validates navigation to Elements card, URL verification (`demoqa.com/checkbox`), menu expansion with 9 items validation<br>✅ **Tree Expansion**: Expands entire tree hierarchy using (+) expand all button<br>✅ **Hierarchy Validation**: Validates all 17 nodes visible (Home → Desktop → Documents → WorkSpace/Office → Downloads)<br>✅ **Icon Validation**: Verifies collapse (-) icons appear on all expandable nodes after expansion |
+| **1.b** | Tick a parent node (of your choosing) and dynamically assert that all nested elements have correct icons | TC002, TC003, TC004 | ✅ **TC002**: Cascading selection - WorkSpace parent checked → validates all children auto-checked (React, Angular, Veu), ancestor nodes show indeterminate state, siblings remain unchecked<br>✅ **TC003**: Multiple parent selection - WorkSpace + Office both selected → validates all children checked, common parent indeterminate, unrelated nodes unchecked, selection result includes both branches<br>✅ **TC004**: Deselection behavior - validates rollback when unchecking parent, all children unchecked, ancestors return to unchecked state, selection result becomes empty<br>✅ **Bonus**: Works programmatically for any parent node in tree structure |
+| **2.a** | Navigate to Elements > Dynamic Properties. Fluently wait for button with text "Visible after 5 seconds" to be displayed | TC005 | ✅ **Background**: Navigation validation to Elements card, menu expansion, URL verification (`demoqa.com/dynamic-properties`)<br>✅ **Fluent Wait Implementation**: Uses WebDriverWait with explicit expected conditions (no hard-coded sleep)<br>✅ **Polling Mechanism**: Continuously polls for element visibility until 5-second timeout<br>✅ **Button Validation**: Confirms button with exact text "Visible After 5 Seconds" appears and is visible after delay |
+| **2.b** | Load the page and verify that the second button changes color after some time | TC006 | ✅ **Initial State Capture**: Captures baseline CSS color property of "Color Change" button at page load<br>✅ **Dynamic Wait**: Implements smart wait mechanism for CSS property changes (no fixed sleep)<br>✅ **Color Comparison**: Validates button color transforms to different value than initial state<br>✅ **CSS Property Validation**: Direct validation of computed style color values |
+| **3** | Navigate to Forms > Practice Forms. Identify and implement 1-2 test scenarios to test field validation | TC007, TC008, TC009, TC010, TC011 | ✅ **TC007 (Negative)**: Empty form submission → validates 4 mandatory fields (First Name, Last Name, Gender, Mobile) show red border error<br>✅ **TC008 (Positive)**: Valid submission with all required fields → validates successful submission modal displays correct data (Name, Email, Gender, Mobile, DOB with date formatting)<br>✅ **TC009 (Data-Driven)**: Mobile field validation with 3 invalid scenarios → rejects short numbers (98), text input (hello world), special characters (98@#$67890)<br>✅ **TC010 (Boundary)**: Mobile field auto-limit → validates max 10 digits, excess input (15 digits) truncated<br>✅ **TC011 (Data-Driven)**: Email validation with 3 invalid formats → rejects plaintext, incomplete addresses (user@, user@domain)|
+| **4** | Navigate to Book Store Application. Look at the list of books and use the api to validate the correctness of the data displayed on the book store page | TC012, TC013 | ✅ **TC012 (API Integration)**: Sends GET request to `/BookStore/v1/Books` endpoint → validates HTTP 200 status → verifies "books" array in response → compares book count UI vs API → validates exact field-level match for each book (title, author, publisher) → verifies all book image URLs valid and displayed<br>✅ **TC013 (Negative Search)**: Search with non-existent title "NonExistentBookTitle12345XYZ" → validates zero results, "No rows found" message displayed<br>
 
-**Current Coverage**: All 13 identified requirements have corresponding automated tests. This gives us 100% automation coverage across the tested features.
+---
+
+**🔍 Additional Quality Measures:**
+- ✅ Complete navigation flow validation in every Background section
+- ✅ URL verification for correct page routing
+- ✅ Menu expansion and item verification before test execution
+- ✅ Multiple assertion types: icon states, CSS properties, element visibility, data matching
+- ✅ Edge case coverage: empty forms, invalid inputs, non-existent searches, boundary values
 
 ---
 
@@ -136,7 +119,7 @@ git --version
 ### Step 1: Clone the Repository
 
 ```powershell
-git clone https://github.com/your-username/demoqa_automation.git
+git clone https://github.com/laxmigudami/demoqa-automation.git
 cd demoqa_automation
 ```
 
@@ -171,24 +154,25 @@ If both commands run without errors, you're good to go!
 
 ### Step 5: Configure (Optional)
 
-The framework works out of the box with sensible defaults, but you can customize settings by creating a `.env` file:
+The framework works out of the box with sensible defaults, but you can customize settings using environment variables.
 
-```env
-BROWSER=chrome              # Options: chrome, firefox, edge
-HEADLESS=false             # Set to true for headless execution
-BASE_URL=https://demoqa.com
-IMPLICIT_WAIT=10           # Default wait time in seconds
-EXPLICIT_WAIT=15
-LOG_LEVEL=INFO             # Options: DEBUG, INFO, WARNING, ERROR
+**Quick Setup:**
+
+```powershell
+# Copy the example .env file
+cp .env.example .env
+
+# Edit .env file with your preferred settings
+notepad .env
 ```
+
+**Note:** The `.env.example` file contains all available options with detailed comments. Simply copy it to `.env` and customize as needed.
 
 ---
 
 ## Running Your Tests
 
 ### Run Everything
-
-The simplest way to run all tests:
 
 ```powershell
 python run_tests.py
@@ -197,8 +181,6 @@ python run_tests.py
 This executes the full test suite and generates Allure reports automatically.
 
 ### Run Specific Features
-
-When you're working on a particular feature, you can run just those tests:
 
 ```powershell
 # Checkbox tests only
@@ -276,7 +258,7 @@ allure open reports/allure_html
 
 ### Sample Allure Report
 
-![Allure Report Overview](<Screenshot 2025-11-24 051142.png>)
+![Allure Report](image.png)
 
 The Allure report provides a comprehensive view with pass/fail statistics, execution timeline, detailed step breakdowns, and automatic screenshot attachments for failures.
 
@@ -301,16 +283,6 @@ You can adjust these settings in your `.env` file or `config/config.py`:
 - Choose your browser: chrome, firefox, or edge
 - Run headless (faster, no GUI): set HEADLESS=true
 
-**Wait Times:**
-- IMPLICIT_WAIT: 10 seconds (general waiting)
-- EXPLICIT_WAIT: 15 seconds (specific elements)
-- FLUENT_WAIT: 20 seconds (polling for dynamic elements)
-- POLL_FREQUENCY: 0.5 seconds (how often to check)
-
-**Logging:**
-- Control verbosity: DEBUG (detailed), INFO (standard), WARNING, ERROR
-- Enable/disable file and console output
-
 ### When Tests Fail
 
 Here's my debugging process:
@@ -321,12 +293,6 @@ type logs\behave_execution.log
 
 # Look at the failure screenshot
 explorer reports\screenshots
-
-# Run just that one failing test
-behave -n "TC001 - Dynamically expand the tree at all levels"
-
-# Enable debug logging for more details
-# (Set LOG_LEVEL=DEBUG in config)
 ```
 
 ### Running Tests Faster
@@ -341,20 +307,6 @@ For local development or CI/CD pipelines:
 python run_tests.py --tags="@critical or @smoke"
 ```
 
-### Keeping the Framework Healthy
-
-```powershell
-# Check code quality
-black .
-flake8 .
-pylint pages/ utils/ config/
-
-# See which dependencies are outdated
-pip list --outdated
-
-# Update specific packages
-pip install --upgrade selenium
-```
 
 ---
 

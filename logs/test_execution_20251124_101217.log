@@ -1,0 +1,379 @@
+2025-11-24 10:12:17 - behave.execution - INFO - Test execution started
+2025-11-24 10:12:17 - behave.execution - INFO - Base URL: https://demoqa.com
+2025-11-24 10:12:17 - behave.execution - INFO - Browser: chrome (Headless: True)
+2025-11-24 10:12:17 - behave.execution - INFO - Log file: C:\Users\z00556rs\Documents\demoqa_automation\logs\test_execution_20251124_101217.log
+2025-11-24 10:12:17 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:12:17 - config.browser_manager - INFO - Setting up chrome browser...
+2025-11-24 10:12:22 - config.browser_manager - INFO - WebDriver configured - Browser: chrome, Headless: True
+2025-11-24 10:12:22 - behave.execution - INFO - WebDriver initialized successfully
+2025-11-24 10:12:22 - behave.execution - INFO - Scenario #1: TC012 - Verify book catalog data consistency between UI and API
+2025-11-24 10:12:22 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 10:12:22 - behave.execution - INFO - Tags: smoke, critical, api-validation, positive
+2025-11-24 10:12:30 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:12:30 - pages.homepage - INFO - Clicked on Book Store Application card
+2025-11-24 10:12:30 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 10:12:30 - pages.homepage - INFO - Book Store Application menu expanded: True
+2025-11-24 10:12:30 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 10:12:30 - pages.homepage - INFO - Navigated to: Book Store
+2025-11-24 10:12:30 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:30 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:30 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:31 - utils.api_client - INFO - APIClient initialized with base_url: https://demoqa.com/BookStore/v1
+2025-11-24 10:12:32 - utils.api_client - INFO - Successfully fetched 8 books
+2025-11-24 10:12:32 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:32 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:32 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:33 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:33 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:33 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:34 - pages.bookstore_page - INFO - Retrieved 8 books from page
+2025-11-24 10:12:34 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:34 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:35 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:36 - pages.bookstore_page - INFO - Book image displayed for: Git Pocket Guide (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 10:12:36 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:36 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:36 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:37 - pages.bookstore_page - INFO - Book image displayed for: Learning JavaScript Design Patterns (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 10:12:37 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:37 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:37 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:38 - pages.bookstore_page - INFO - Book image displayed for: Designing Evolvable Web APIs with ASP.NET (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 10:12:38 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:38 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:38 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:39 - pages.bookstore_page - INFO - Book image displayed for: Speaking JavaScript (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 10:12:39 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:39 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:39 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:40 - pages.bookstore_page - INFO - Book image displayed for: You Don't Know JS (src: https://demoqa.com/images/bookimage0.jpg)
+2025-11-24 10:12:40 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:40 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:40 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:41 - pages.bookstore_page - INFO - Book image displayed for: Programming JavaScript Applications (src: https://demoqa.com/images/bookimage1.jpg)
+2025-11-24 10:12:41 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:41 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:41 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:42 - pages.bookstore_page - INFO - Book image displayed for: Eloquent JavaScript, Second Edition (src: https://demoqa.com/images/bookimage2.jpg)
+2025-11-24 10:12:42 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:42 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:42 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:43 - pages.bookstore_page - INFO - Book image displayed for: Understanding ECMAScript 6 (src: https://demoqa.com/images/bookimage3.jpg)
+2025-11-24 10:12:43 - behave.execution - INFO - Scenario passed: TC012 - Verify book catalog data consistency between UI and API (Duration: 21.21s)
+2025-11-24 10:12:43 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:12:43 - behave.execution - INFO - Scenario #2: TC013 - Verify search with non-existent book title shows no results
+2025-11-24 10:12:43 - behave.execution - INFO - Feature: Book Store Application - UI and API Data Validation
+2025-11-24 10:12:43 - behave.execution - INFO - Tags: smoke, critical, api-validation, negative
+2025-11-24 10:12:44 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:12:44 - pages.homepage - INFO - Clicked on Book Store Application card
+2025-11-24 10:12:44 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 10:12:44 - pages.homepage - INFO - Book Store Application menu expanded: True
+2025-11-24 10:12:44 - pages.homepage - INFO - Found Book Store Application menu items: ['Login', 'Book Store', 'Profile', 'Book Store API']
+2025-11-24 10:12:44 - pages.homepage - INFO - Navigated to: Book Store
+2025-11-24 10:12:44 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:44 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:44 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:45 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:45 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:12:45 - pages.bookstore_page - INFO - Book data is loaded
+2025-11-24 10:12:48 - pages.bookstore_page - INFO - Searched for book: NonExistentBookTitle12345XYZ
+2025-11-24 10:12:48 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:12:48 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:13:03 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 10:13:03 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 10:13:03 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:13:03 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:13:18 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 10:13:18 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 10:13:18 - pages.bookstore_page - INFO - Book table is present
+2025-11-24 10:13:18 - pages.bookstore_page - INFO - Book rows are visible
+2025-11-24 10:13:33 - pages.bookstore_page - ERROR - Error waiting for book table to load: Message: 
+
+2025-11-24 10:13:33 - pages.bookstore_page - INFO - Book table load wait timed out (possibly no results): Message: 
+
+2025-11-24 10:13:33 - behave.execution - INFO - Scenario passed: TC013 - Verify search with non-existent book title shows no results (Duration: 49.78s)
+2025-11-24 10:13:33 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:13:33 - behave.execution - INFO - Scenario #3: TC001 - Dynamically expand the tree at all levels
+2025-11-24 10:13:33 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 10:13:33 - behave.execution - INFO - Tags: smoke, functional, tree-expansion
+2025-11-24 10:13:34 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:13:34 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:13:34 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:13:35 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 10:13:36 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 10:13:36 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 10:13:46 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:13:46 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 10:13:56 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:13:56 - pages.checkbox_page - INFO - Found 17 visible nodes
+2025-11-24 10:13:56 - behave.execution - INFO - Scenario passed: TC001 - Dynamically expand the tree at all levels (Duration: 22.99s)
+2025-11-24 10:13:56 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:13:56 - behave.execution - INFO - Scenario #4: TC002 - Validate cascading checkbox selection for parent node with child hierarchy
+2025-11-24 10:13:56 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 10:13:56 - behave.execution - INFO - Tags: smoke, functional, ui-validation, checkbox-behavior, cascading-selection
+2025-11-24 10:13:57 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:13:57 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:13:57 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:13:58 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 10:13:59 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 10:13:59 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 10:14:09 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:14:09 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 10:14:19 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:14:19 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 10:14:19 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 10:14:30 - builtins - WARNING - No descendants found under 'WorkSpace'
+2025-11-24 10:14:52 - behave.execution - INFO - Scenario passed: TC002 - Validate cascading checkbox selection for parent node with child hierarchy (Duration: 55.94s)
+2025-11-24 10:14:52 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:14:52 - behave.execution - INFO - Scenario #5: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes
+2025-11-24 10:14:52 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 10:14:52 - behave.execution - INFO - Tags: smoke, functional, checkbox-interaction, multiple-parent-selection
+2025-11-24 10:14:53 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:14:53 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:14:53 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:14:53 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 10:14:55 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 10:14:55 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 10:15:05 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:15:05 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 10:15:15 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:15:15 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 10:15:15 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 10:15:16 - pages.checkbox_page - INFO - Clicked checkbox for node 'Office'
+2025-11-24 10:15:16 - pages.checkbox_page - INFO - Successfully checked node: Office
+2025-11-24 10:15:19 - behave.execution - INFO - Scenario passed: TC003 - Validate checkbox behavior when selecting multiple non-overlapping parent nodes (Duration: 27.00s)
+2025-11-24 10:15:19 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:15:19 - behave.execution - INFO - Scenario #6: TC004 - Validate checkbox deselection and state rollback behavior
+2025-11-24 10:15:19 - behave.execution - INFO - Feature: Checkbox Tree Testing - Dynamic Expansion and Icon Validation
+2025-11-24 10:15:19 - behave.execution - INFO - Tags: regression, edge-case, checkbox-deselection
+2025-11-24 10:15:20 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:15:20 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:15:20 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:15:20 - pages.homepage - INFO - Navigated to: Check Box
+2025-11-24 10:15:21 - pages.checkbox_page - INFO - Clicked expand all button
+2025-11-24 10:15:21 - pages.checkbox_page - INFO - Tree expansion completed - Collapse All button is now visible
+2025-11-24 10:15:31 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:15:31 - pages.checkbox_page - INFO - All tree nodes are expanded successfully
+2025-11-24 10:15:41 - pages.checkbox_page - INFO - Tree expanded: True (collapse_button: True, collapse_icons: 6, expand_icons: 0)
+2025-11-24 10:15:41 - pages.checkbox_page - INFO - Clicked checkbox for node 'WorkSpace'
+2025-11-24 10:15:41 - pages.checkbox_page - INFO - Successfully checked node: WorkSpace
+2025-11-24 10:15:53 - pages.checkbox_page - INFO - Clicked checkbox to uncheck node 'WorkSpace'
+2025-11-24 10:15:53 - pages.checkbox_page - INFO - Successfully unchecked node: WorkSpace
+2025-11-24 10:16:26 - pages.base_page - ERROR - Get text failed ('id', 'result'): Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x924103
+	0x924144
+	0x72e71d
+	0x77a03d
+	0x77a41b
+	0x7c17f2
+	0x79c954
+	0x7bee17
+	0x79c706
+	0x76da30
+	0x76ed54
+	0xb957b4
+	0xb9098a
+	0x94c392
+	0x93c4c8
+	0x94324d
+	0x92c478
+	0x92c63c
+	0x9167ca
+	0x75067ba9
+	0x76ebc3ab
+	0x76ebc32f
+
+2025-11-24 10:16:26 - behave.execution - INFO - Scenario passed: TC004 - Validate checkbox deselection and state rollback behavior (Duration: 67.42s)
+2025-11-24 10:16:26 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:16:26 - behave.execution - INFO - Scenario #7: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed
+2025-11-24 10:16:26 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 10:16:26 - behave.execution - INFO - Tags: smoke, functional, visibility-check
+2025-11-24 10:16:27 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:16:28 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:16:28 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:16:28 - pages.homepage - INFO - Navigated to: Dynamic Properties
+2025-11-24 10:16:30 - pages.base_page - INFO - Page refreshed
+2025-11-24 10:16:35 - pages.dynamic_properties_page - INFO - 'Visible After 5 Seconds' button is now visible
+2025-11-24 10:16:35 - behave.execution - INFO - Scenario passed: TC005 - Fluently wait for button with text "Visible after 5 seconds" to be displayed (Duration: 8.30s)
+2025-11-24 10:16:35 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:16:35 - behave.execution - INFO - Scenario #8: TC006 - Verify that the Color Change button changes color after some time
+2025-11-24 10:16:35 - behave.execution - INFO - Feature: Dynamic Properties Testing
+2025-11-24 10:16:35 - behave.execution - INFO - Tags: smoke, functional, color-validation
+2025-11-24 10:16:35 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:16:36 - pages.homepage - INFO - Clicked on Elements card
+2025-11-24 10:16:36 - pages.homepage - INFO - Found Elements menu items: ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - Images', 'Upload and Download', 'Dynamic Properties']
+2025-11-24 10:16:36 - pages.homepage - INFO - Navigated to: Dynamic Properties
+2025-11-24 10:16:37 - pages.base_page - INFO - Page refreshed
+2025-11-24 10:16:38 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:38 - pages.dynamic_properties_page - INFO - Color Change button background color: rgba(0, 123, 255, 1)
+2025-11-24 10:16:38 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:38 - pages.dynamic_properties_page - INFO - Waiting for color to change from: rgba(255, 255, 255, 1)
+2025-11-24 10:16:38 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:39 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:39 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:40 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:40 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:41 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:41 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:42 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(255, 255, 255, 1)
+2025-11-24 10:16:43 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(220, 53, 69, 1)
+2025-11-24 10:16:43 - pages.dynamic_properties_page - INFO - color changed after 4.14s: rgba(255, 255, 255, 1) -> rgba(220, 53, 69, 1)
+2025-11-24 10:16:43 - pages.dynamic_properties_page - INFO - Color Change button color: rgba(220, 53, 69, 1)
+2025-11-24 10:16:43 - pages.dynamic_properties_page - INFO - Color Change button background color: rgba(0, 123, 255, 1)
+2025-11-24 10:16:43 - behave.execution - INFO - Scenario passed: TC006 - Verify that the Color Change button changes color after some time (Duration: 7.80s)
+2025-11-24 10:16:43 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:16:43 - behave.execution - INFO - Scenario #9: TC007 - Verify user not able to submit the form with empty fields
+2025-11-24 10:16:43 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:16:43 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 10:16:43 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:16:43 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:16:43 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Field 'First Name' has HTML5 :invalid state
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Field 'Last Name' has HTML5 :invalid state
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Gender field error status: False
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Retrieved field value: 
+2025-11-24 10:16:44 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 10:16:44 - behave.execution - INFO - Scenario passed: TC007 - Verify user not able to submit the form with empty fields (Duration: 1.10s)
+2025-11-24 10:16:44 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:17:05 - behave.execution - INFO - Scenario #10: TC008 - Verify form submission with valid required fields only
+2025-11-24 10:17:05 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:17:05 - behave.execution - INFO - Tags: smoke, critical
+2025-11-24 10:17:06 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:17:06 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:17:06 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:17:06 - pages.practice_forms_page - INFO - Entered first name: Priyanka
+2025-11-24 10:17:07 - pages.practice_forms_page - INFO - Entered last name: Chopra
+2025-11-24 10:17:07 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 10:17:07 - pages.practice_forms_page - INFO - Entered mobile: 9123456789
+2025-11-24 10:17:07 - pages.practice_forms_page - INFO - Entered email: priyanka.chopra@bollywood.com
+2025-11-24 10:17:07 - pages.practice_forms_page - INFO - Entered date of birth: 15 Jul 1982 (formatted as 07/15/1982)
+2025-11-24 10:17:08 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:17:08 - pages.practice_forms_page - INFO - Retrieved submitted data: {'Student Name': 'Priyanka Chopra', 'Student Email': 'priyanka.chopra@bollywood.com', 'Gender': 'Female', 'Mobile': '9123456789', 'Date of Birth': '15 July,1982', 'Subjects': '', 'Hobbies': '', 'Picture': '', 'Address': '', 'State and City': ''}
+2025-11-24 10:17:08 - behave.execution - INFO - Scenario passed: TC008 - Verify form submission with valid required fields only (Duration: 3.26s)
+2025-11-24 10:17:08 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:17:08 - pages.practice_forms_page - INFO - Success modal closed
+2025-11-24 10:17:08 - behave.execution - INFO - Scenario #11: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1 
+2025-11-24 10:17:08 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:17:08 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:17:09 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:17:09 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:17:10 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Entered mobile: 98
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Retrieved field value: 98
+2025-11-24 10:17:10 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 10:17:10 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.1  (Duration: 2.22s)
+2025-11-24 10:17:10 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:17:32 - behave.execution - INFO - Scenario #12: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2 
+2025-11-24 10:17:32 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:17:32 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:17:32 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:17:33 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:17:33 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:17:33 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 10:17:33 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 10:17:33 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 10:17:34 - pages.practice_forms_page - INFO - Entered mobile: hello world
+2025-11-24 10:17:34 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:17:34 - pages.practice_forms_page - INFO - Retrieved field value: hello worl
+2025-11-24 10:17:34 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 10:17:34 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.2  (Duration: 2.39s)
+2025-11-24 10:17:34 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:17:55 - behave.execution - INFO - Scenario #13: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3 
+2025-11-24 10:17:55 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:17:55 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:17:56 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:17:56 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:17:56 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Entered mobile: 98@#$67890
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Retrieved field value: 98@#$67890
+2025-11-24 10:17:56 - pages.practice_forms_page - INFO - Field 'Mobile Number' has HTML5 :invalid state
+2025-11-24 10:17:56 - behave.execution - INFO - Scenario passed: TC009 - Validate Mobile Number field rejects invalid inputs -- @1.3  (Duration: 1.04s)
+2025-11-24 10:17:56 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:18:17 - behave.execution - INFO - Scenario #14: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum
+2025-11-24 10:18:17 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:18:17 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:18:18 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:18:18 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:18:18 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:18:18 - pages.practice_forms_page - INFO - Entered first name: Angelina
+2025-11-24 10:18:18 - pages.practice_forms_page - INFO - Entered last name: Jolie
+2025-11-24 10:18:18 - pages.practice_forms_page - INFO - Selected Female gender
+2025-11-24 10:18:18 - pages.practice_forms_page - INFO - Entered mobile: 987654321098765
+2025-11-24 10:18:18 - pages.practice_forms_page - INFO - Retrieved field value: 9876543210
+2025-11-24 10:18:18 - behave.execution - INFO - Scenario passed: TC010 - Validate Mobile Number field auto-limits to 10 digits maximum (Duration: 1.05s)
+2025-11-24 10:18:18 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:18:39 - behave.execution - INFO - Scenario #15: TC011 - Validate Email field rejects invalid formats -- @1.1 
+2025-11-24 10:18:39 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:18:39 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:18:40 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:18:40 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:18:40 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Entered email: plaintext
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Retrieved field value: plaintext
+2025-11-24 10:18:40 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 10:18:40 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.1  (Duration: 1.24s)
+2025-11-24 10:18:40 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:19:02 - behave.execution - INFO - Scenario #16: TC011 - Validate Email field rejects invalid formats -- @1.2 
+2025-11-24 10:19:02 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:19:02 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:19:02 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:19:03 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:19:03 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:19:03 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 10:19:03 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 10:19:03 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 10:19:03 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 10:19:04 - pages.practice_forms_page - INFO - Entered email: user@
+2025-11-24 10:19:04 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:19:04 - pages.practice_forms_page - INFO - Retrieved field value: user@
+2025-11-24 10:19:04 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 10:19:04 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.2  (Duration: 2.32s)
+2025-11-24 10:19:04 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:19:25 - behave.execution - INFO - Scenario #17: TC011 - Validate Email field rejects invalid formats -- @1.3 
+2025-11-24 10:19:25 - behave.execution - INFO - Feature: Practice Forms - Basic Functionality Testing
+2025-11-24 10:19:25 - behave.execution - INFO - Tags: regression, validation
+2025-11-24 10:19:26 - pages.base_page - INFO - Navigated to: https://demoqa.com
+2025-11-24 10:19:26 - pages.homepage - INFO - Clicked on Forms card
+2025-11-24 10:19:26 - pages.homepage - INFO - Navigated to: Practice Form
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Entered first name: Leonardo
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Entered last name: DiCaprio
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Selected Male gender
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Entered mobile: 8012345678
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Entered email: user@domain
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Form submitted
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Retrieved field value: user@domain
+2025-11-24 10:19:27 - pages.practice_forms_page - INFO - Field 'name@example.com' has HTML5 :invalid state
+2025-11-24 10:19:27 - behave.execution - INFO - Scenario passed: TC011 - Validate Email field rejects invalid formats -- @1.3  (Duration: 2.32s)
+2025-11-24 10:19:27 - behave.execution - INFO - --------------------------------------------------------------------------------
+2025-11-24 10:19:48 - behave.execution - INFO - ================================================================================
+2025-11-24 10:19:48 - behave.execution - INFO - TEST EXECUTION SUMMARY
+2025-11-24 10:19:48 - behave.execution - INFO - ================================================================================
+2025-11-24 10:19:48 - behave.execution - INFO - Total scenarios: 17
+2025-11-24 10:19:48 - behave.execution - INFO - Passed: 17 (100.0%)
+2025-11-24 10:19:48 - behave.execution - INFO - Failed: 0 (0.0%)
+2025-11-24 10:19:48 - behave.execution - INFO - Errors: 0 (0.0%)
+2025-11-24 10:19:48 - behave.execution - INFO - Skipped: 0 (0.0%)
+2025-11-24 10:19:48 - behave.execution - INFO - Pass rate: 100.00%
+2025-11-24 10:19:48 - behave.execution - INFO - Total duration: 451.62s (7.53 min)
+2025-11-24 10:19:48 - behave.execution - INFO - ================================================================================
+2025-11-24 10:19:53 - config.browser_manager - INFO - WebDriver closed
