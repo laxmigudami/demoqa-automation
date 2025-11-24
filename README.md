@@ -1,16 +1,14 @@
 # DemoQA Test Automation Framework (Python + Selenium + Behave)
 
-This is a comprehensive test automation framework I've built for web application testing, leveraging BDD principles to bridge the gap between technical and non-technical team members. The framework uses Python with Selenium WebDriver and Behave to create a maintainable and scalable testing solution that grows with your project needs.
+This is a comprehensive test automation framework, built for web application testing, leveraging BDD principles to bridge the gap between technical and non-technical team members. The framework uses Python with Selenium WebDriver and Behave to create a maintainable and scalable testing solution that grows with our project needs.
 
 ## Key Features
 
 - 🎯 **Behavior-Driven Development (BDD)** - Gherkin syntax with Behave enables stakeholders to write and understand tests in plain English
 - 🏗️ **Page Object Model (POM)** - Centralized element management with separated test logic for maintainable and scalable automation
-- ⏱️ **Smart Wait Mechanisms** - WebDriverWait with expected conditions and retry logic for robust handling of dynamic elements
 - 📊 **Comprehensive Reporting** - Allure integration with interactive HTML reports, screenshots on failure, and historical trend analysis
-- 🔗 **Hybrid Testing** - Combined UI and REST API validation ensuring end-to-end data consistency across application layers
 - ✨ **Code Quality Management** - Automated code formatting (Black), import sorting (isort), and linting (Flake8, Pylint) via centralized pyproject.toml configuration
-
+- 🚀 **Custom Test Runner** - CLI-based test orchestrator (`run_tests.py`) with tag filtering (@smoke, @critical, @regression), execution tracking, and automated report generation with artifact summaries
 ---
 
 ## Tech Stack
